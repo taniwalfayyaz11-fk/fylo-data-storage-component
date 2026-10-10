@@ -1,0 +1,151 @@
+body {
+  background: hsl(229, 57%, 11%);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.box {
+  margin: 100px;
+  align-content: center;
+  position: relative;
+  top: -30px;
+}
+
+.box {
+  background: hsl(228, 56%, 26%);
+  height: 170px;
+  width: 290px;
+  border-radius: 19px 100px 19px 19px;
+}
+.box .logo img {
+  width: 140px;
+  position: relative;
+  right: -10px;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  position: relative;
+  right: -23px;
+  bottom: -15px;
+}
+
+.icon-box {
+  width: 40px;
+  height: 40px;
+  background: hsl(229, 57%, 15%);
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box img {
+  width: 19px;
+}
+
+.boc {
+  background: hsl(228, 56%, 26%);
+  color: hsl(229, 7%, 55%);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  width: 430px;
+  padding: 12px 20px;
+  height: 100px;
+  border-radius: 19px;
+  position: relative;
+  top: -10px;
+  left: -65px;
+}
+.boc span {
+  color: white;
+}
+
+.progress-bar {
+  width: 380px;
+  height: 12px;
+  background: #0c1833;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.progress {
+  width: 75%;
+  height: 100%;
+  background: linear-gradient(to right, #ff8a9b, #ff4d91);
+  border-radius: 10px;
+  position: relative;
+}
+.progress::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+}
+.boc .flx {
+  display: flex;
+  gap: 305px;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  top: -10px;
+}
+
+.boxes {
+  display: flex;
+  position: relative;
+  right: 1px;
+  bottom: 190px;
+  min-height: 150vh;
+  background-image: url("bg-desktop.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.call {
+  background: white;
+  width: 130px;
+  height: 40px;
+  padding: 12px 15px;
+  border-radius: 13px;
+  font-family: sans-serif;
+  position: relative;
+  right: -850px;
+  top: -114px;
+}
+.call .quantity {
+  color: hsl(229, 57%, 11%);
+  font-weight: 800;
+  font-size: 30px;
+}
+.call .left {
+  color: hsl(229, 7%, 55%);
+  font-size: 12px;
+  position: relative;
+  top: -6px;
+  right: -8px;
+}
+
+.call::after {
+  content: "";
+  position: absolute;
+
+  right: 0px;
+  bottom: -9px;
+
+  width: 0;
+  height: 0px;
+
+  border-top: 20px solid white;
+  border-left: 20px solid transparent;
+}
